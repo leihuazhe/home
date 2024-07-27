@@ -83,7 +83,8 @@ onMounted(() => {
   // 屏蔽右键
   document.oncontextmenu = () => {
     ElMessage({
-      message: "为了浏览体验，本站禁用右键",
+      // message: "为了浏览体验，本站禁用右键",
+      message: "To enhance your browsing experience, right-click functionality has been disabled on this site.",
       grouping: true,
       duration: 2000,
     });
