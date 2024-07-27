@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Github",
+    "icon": "/images/icon/github.png",
+    "tip": "Take a look",
+    "url": "https://github.com/leihuazhe"
+  },
+  {
+    "name": "Email",
+    "icon": "/images/icon/email.png",
+    "tip": "mail to me ~",
+    "url": "mailto:leihuazhe@gmail.com"
+  },
+  {
+    "name": "Twitter",
+    "icon": "/images/icon/twitter.png",
+    "tip": "你懂的 ~",
+    "url": "https://twitter.com/youjier"
+  }
+]

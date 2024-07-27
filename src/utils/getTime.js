@@ -11,7 +11,8 @@ export const getCurrentTime = () => {
   let hour = time.getHours() < 10 ? "0" + time.getHours() : time.getHours();
   let minute = time.getMinutes() < 10 ? "0" + time.getMinutes() : time.getMinutes();
   let second = time.getSeconds() < 10 ? "0" + time.getSeconds() : time.getSeconds();
-  let weekday = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+  // let weekday = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+  let weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   let currentTime = {
     year,
     month,
@@ -76,25 +77,25 @@ export const helloInit = () => {
   const hour = new Date().getHours();
   let hello = null;
   if (hour < 6) {
-    hello = "凌晨好";
+    hello = "Good Early morning";
   } else if (hour < 9) {
-    hello = "早上好";
+    hello = "Good Morning";
   } else if (hour < 12) {
-    hello = "上午好";
+    hello = "Good Morning";
   } else if (hour < 14) {
-    hello = "中午好";
+    hello = "Good Noon";
   } else if (hour < 17) {
-    hello = "下午好";
+    hello = "Good Afternoon";
   } else if (hour < 19) {
-    hello = "傍晚好";
+    hello = "Good Evening";
   } else if (hour < 22) {
-    hello = "晚上好";
+    hello = "Good Night";
   } else {
-    hello = "夜深了";
+    hello = "Good Late night";
   }
   ElMessage({
     dangerouslyUseHTMLString: true,
-    message: `<strong>${hello}</strong> 欢迎来到我的主页`,
+    message: `<strong>${hello}</strong> Welcome to my corner of the internet !`,
   });
 };
 

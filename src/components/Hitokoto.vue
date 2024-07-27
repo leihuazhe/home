@@ -14,7 +14,7 @@
         @click="store.musicOpenState = true"
       >
         <music-menu theme="filled" size="18" fill="#efefef" />
-        <span>打开音乐播放器</span>
+        <span>Open Music Player</span>
       </div>
     </Transition>
     <!-- 一言内容 -->
@@ -72,7 +72,8 @@ const updateHitokoto = () => {
 };
 
 onMounted(() => {
-  getHitokotoData();
+  // getHitokotoData();
+  store.musicOpenState = true;
 });
 </script>
 
