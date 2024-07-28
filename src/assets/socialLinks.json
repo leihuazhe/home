@@ -4,5 +4,17 @@
     "icon": "/images/icon/email.png",
     "tip": "mail to me ~",
     "url": "mailto:leihuazhe@gmail.com"
+  },
+  {
+    "name": "Github",
+    "icon": "/images/icon/github.png",
+    "tip": "Take a look",
+    "url": "https://github.com/leihuazhe"
+  },
+  {
+    "name": "Twitter",
+    "icon": "/images/icon/twitter.png",
+    "tip": "",
+    "url": "https://twitter.com/youjier"
   }
 ]

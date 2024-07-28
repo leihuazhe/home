@@ -5,14 +5,14 @@
     "link": "https://www.jianshu.com/u/dafae09a632e"
   },
   {
-    "icon": "Cloud",
-    "name": "Resume",
+    "icon": "StickyNote",
+    "name": "Notes",
     "link": "https://me.hzlei.me/resume"
   },
   {
-    "icon": "RProject",
-    "name": "Project",
-    "link": "https://me.hzlei.me/project"
+    "icon": "UserTie",
+    "name": "Portfolio",
+    "link": "https://me.hzlei.me"
   },
   {
     "icon": "Github",
